@@ -1,0 +1,25 @@
+{
+  "name": "recursion",
+  "version": "1.0.0",
+  "description": "A recursion exercise using Fibonacci Sequence and Merge Sort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueld51244/Recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/migueld51244/Recursion/issues"
+  },
+  "homepage": "https://github.com/migueld51244/Recursion#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "jest": "^30.5.2"
+  }
+}
