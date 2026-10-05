@@ -1,5 +1,6 @@
 // Fibonacci using iterator
 function iteratorFib(num) {
+  if (num < 0) return "Negative value not allowed";
   if (Number.isNaN(num) || !Number.isInteger(num))
     return "Unexpected type of data";
   console.log("Printed iteratively");
@@ -16,6 +17,7 @@ function iteratorFib(num) {
 
 // Fibonacci using recursion
 function recursiveFib(num) {
+  if (num < 0) return "Negative value not allowed";
   if (Number.isNaN(num) || !Number.isInteger(num))
     return "Unexpected type of data";
   console.log("Printed recursively");
@@ -33,3 +35,5 @@ function recursiveFib(num) {
   }
   return addNext(0);
 }
+
+export { iteratorFib, recursiveFib };
