@@ -1,5 +1,7 @@
 // Fibonacci using iterator
 function iteratorFib(num) {
+  if (Number.isNaN(num) || !Number.isInteger(num))
+    return "Unexpected type of data";
   console.log("Printed iteratively");
   const totalNums = [];
   for (let i = 0; i < num; i++) {
@@ -14,6 +16,8 @@ function iteratorFib(num) {
 
 // Fibonacci using recursion
 function recursiveFib(num) {
+  if (Number.isNaN(num) || !Number.isInteger(num))
+    return "Unexpected type of data";
   console.log("Printed recursively");
   const totalNums = [];
   function addNext(index) {
